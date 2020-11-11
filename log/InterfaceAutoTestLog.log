@@ -1,0 +1,33 @@
+2020-11-10 17:41:37 log.py[line:16] INFO 第[1]个接口,接口名是[用户注册],请求url是[http://39.100.104.214:8080/register/],请求方式是[post],参数类型是[form]
+2020-11-10 17:41:37 log.py[line:16] INFO 接口[用户注册]的第[1]条用例,请求参数是{'username': 'zhangsan123', 'password': 'zhagn123zhagn', 'email': 'zs@qq.com'}, 依赖数据是None
+2020-11-10 17:41:37 log.py[line:16] INFO 接口[用户注册]的第[1]条用例不需要处理依赖数据!
+2020-11-10 17:41:37 log.py[line:16] INFO 接口[用户注册]的第[1]条用例,实际响应结果是{'username': 'zhangsan123', 'code': '01'}
+2020-11-10 17:41:37 log.py[line:16] INFO 接口[用户注册]的第[1]条用例的依赖数据存储成功！
+2020-11-10 17:41:37 log.py[line:16] INFO 第[2]个接口,接口名是[用户登录],请求url是[http://39.100.104.214:8080/login/],请求方式是[post],参数类型是[form]
+2020-11-10 17:41:37 log.py[line:16] INFO 接口[用户登录]的第[1]条用例,请求参数是{'username': 'lilydsd23667888', 'password': 'ssd32de2'}, 依赖数据是{"request":{"用户注册->1":["username","password"]}}
+2020-11-10 17:41:37 log.py[line:16] INFO 接口[用户登录]的第[1]条用例,依赖数据处理后的请求参数是{'username': 'zhangsan123', 'password': '685f148e2323b89ec5e604e493ec1422'}
+2020-11-10 17:41:37 log.py[line:16] INFO 接口[用户登录]的第[1]条用例,实际响应结果是{'token': '1bea258f35936f49e838d734e1adb161', 'code': '00', 'userid': 3420, 'login_time': '2020-11-10 17:41:37'}
+2020-11-10 17:41:37 log.py[line:16] INFO 接口[用户登录]的第[1]条用例的依赖数据存储成功！
+2020-11-10 17:41:37 log.py[line:16] INFO 接口[用户登录]的第[1]条用例运行成功!
+2020-11-10 17:55:09 log.py[line:16] INFO 第[1]个接口,接口名是[用户注册],请求url是[http://39.100.104.214:8080/register/],请求方式是[post],参数类型是[form]
+2020-11-10 17:55:09 log.py[line:16] INFO 接口[用户注册]的第[1]条用例,请求参数是{'username': 'zhangsan123', 'password': 'zhagn123zhagn', 'email': 'zs@qq.com'}, 依赖数据是None
+2020-11-10 17:55:09 log.py[line:16] INFO 接口[用户注册]的第[1]条用例不需要处理依赖数据!
+2020-11-10 17:55:09 log.py[line:16] INFO 接口[用户注册]的第[1]条用例,实际响应结果是{'username': 'zhangsan123', 'code': '01'}
+2020-11-10 17:55:09 log.py[line:16] INFO 接口[用户注册]的第[1]条用例的依赖数据存储成功！
+2020-11-10 17:55:09 log.py[line:16] INFO 第[2]个接口,接口名是[用户登录],请求url是[http://39.100.104.214:8080/login/],请求方式是[post],参数类型是[form]
+2020-11-10 17:55:09 log.py[line:16] INFO 接口[用户登录]的第[1]条用例,请求参数是{'username': 'lilydsd23667888', 'password': 'ssd32de2'}, 依赖数据是{"request":{"用户注册->1":["username","password"]}}
+2020-11-10 17:55:09 log.py[line:16] INFO 接口[用户登录]的第[1]条用例,依赖数据处理后的请求参数是{'username': 'zhangsan123', 'password': '685f148e2323b89ec5e604e493ec1422'}
+2020-11-10 17:55:09 log.py[line:16] INFO 接口[用户登录]的第[1]条用例,实际响应结果是{'token': '1bea258f35936f49e838d734e1adb161', 'code': '00', 'userid': 3420, 'login_time': '2020-11-10 17:55:09'}
+2020-11-10 17:55:09 log.py[line:16] INFO 接口[用户登录]的第[1]条用例的不需要依赖数据存储！
+2020-11-10 17:55:09 log.py[line:16] INFO 接口[用户登录]的第[1]条用例运行成功!
+2020-11-10 17:57:37 log.py[line:16] INFO 第[1]个接口,接口名是[用户注册],请求url是[http://39.100.104.214:8080/register/],请求方式是[post],参数类型是[form]
+2020-11-10 17:57:37 log.py[line:16] INFO 接口[用户注册]的第[1]条用例,请求参数是{'username': 'zhangsan123', 'password': 'zhagn123zhagn', 'email': 'zs@qq.com'}, 依赖数据是None
+2020-11-10 17:57:37 log.py[line:16] INFO 接口[用户注册]的第[1]条用例不需要处理依赖数据!
+2020-11-10 17:57:37 log.py[line:16] INFO 接口[用户注册]的第[1]条用例,实际响应结果是{'username': 'zhangsan123', 'code': '01'}
+2020-11-10 17:57:37 log.py[line:16] INFO 接口[用户注册]的第[1]条用例的依赖数据存储成功！
+2020-11-10 17:57:37 log.py[line:16] INFO 第[2]个接口,接口名是[用户登录],请求url是[http://39.100.104.214:8080/login/],请求方式是[post],参数类型是[form]
+2020-11-10 17:57:37 log.py[line:16] INFO 接口[用户登录]的第[1]条用例,请求参数是{'username': 'lilydsd23667888', 'password': 'ssd32de2'}, 依赖数据是{"request":{"用户注册->1":["username","password"]}}
+2020-11-10 17:57:37 log.py[line:16] INFO 接口[用户登录]的第[1]条用例,依赖数据处理后的请求参数是{'username': 'zhangsan123', 'password': '685f148e2323b89ec5e604e493ec1422'}
+2020-11-10 17:57:37 log.py[line:16] INFO 接口[用户登录]的第[1]条用例,实际响应结果是{'token': '1bea258f35936f49e838d734e1adb161', 'code': '00', 'userid': 3420, 'login_time': '2020-11-10 17:57:38'}
+2020-11-10 17:57:37 log.py[line:16] INFO 接口[用户登录]的第[1]条用例的不需要依赖数据存储！
+2020-11-10 17:57:37 log.py[line:16] INFO 接口[用户登录]的第[1]条用例运行成功!
